@@ -1,0 +1,90 @@
+================================================================================
+                    CV TEXT - READY TO COPY & PASTE
+================================================================================
+
+CHOOSE ONE AND COPY TO YOUR CV:
+
+================================================================================
+OPTION 1: CONCISE (For ATS Systems / Space Limited)
+================================================================================
+
+Distributed Key-Value Store System
+• Built a fault-tolerant distributed database with Python using TCP sockets
+• Implemented consistent hashing algorithm with virtual nodes for load balancing
+• Features 3-node replication system with automatic failover and node discovery
+• Pure Python implementation with zero external dependencies
+
+GitHub: https://github.com/akshita17778/distributed-kv-store
+
+================================================================================
+OPTION 2: DETAILED (For Real Cover Letters / Detailed CV)
+================================================================================
+
+Distributed Key-Value Store with Consistent Hashing
+Technical Lead | Python | Architecture & Implementation
+
+• Architected and implemented a production-grade distributed key-value store system
+  - Coordinator-Node-Client architecture with TCP socket communication
+  - Consistent hashing algorithm for O(1) data lookups across cluster
+  - Automatic data replication (1 primary + 2 replicas per key)
+  - Node discovery, registration, and heartbeat-based failure detection
+  - Multi-threaded servers handling concurrent client connections
+
+• Key Achievements:
+  - Fault tolerant: system operates with minimum 1 node, fully redundant with 3 nodes
+  - Scalable design: supports dynamic node addition/removal with automatic rebalancing
+  - Zero downtime: automatic failover to replica nodes on primary failure
+  - Well documented: 600+ lines of documentation, comprehensive test suite
+
+• Technologies: Python 3, TCP/IP Networking, Multithreading, Data Structures (Hash Ring)
+
+GitHub: https://github.com/akshita17778/distributed-kv-store
+
+================================================================================
+OPTION 3: INTERVIEW VERSION (For Technical Interviews / Explanations)
+================================================================================
+
+Distributed Key-Value Store System
+
+Developed a fault-tolerant distributed database from scratch demonstrating:
+
+• Deep understanding of distributed systems concepts:
+  - Consistent hashing with virtual nodes for balanced key distribution
+  - Data replication and fault tolerance strategies
+  - Node discovery, registration, and health monitoring
+  - Automatic load balancing and failover mechanisms
+
+• Strong system design skills:
+  - Coordinator-Node-Client microservice architecture
+  - TCP socket programming for inter-service communication
+  - Multi-threaded concurrent server implementation
+  - Thread-safe data structures and synchronization
+
+• Production-ready code quality:
+  - 1000+ lines of clean, well-documented Python code
+  - Zero external dependencies (pure Python stdlib)
+  - Comprehensive test suite (4 automated tests)
+  - Automated quick-start guides for easy setup
+
+GitHub: https://github.com/akshita17778/distributed-kv-store
+
+================================================================================
+QUICK REFERENCE FOR INTERVIEWS
+================================================================================
+
+SYSTEM RUNNING NOW:
+- Coordinator: 127.0.0.1:5000
+- Node 1: 127.0.0.1:5001
+- Node 2: 127.0.0.1:5002
+- Node 3: 127.0.0.1:5003
+
+QUICK TEST:
+cd C:\Users\vikas\distributed-kv-store
+python cv_demo.py
+
+QUICK EXAMPLE:
+cd C:\Users\vikas\distributed-kv-store\client
+python client.py --command "PUT resume-project Distributed-KV-Store"
+python client.py --command "GET resume-project"
+
+================================================================================
