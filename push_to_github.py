@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-"""
-Push Distributed KV Store to GitHub using GitHub API
-"""
+
 import os
 import json
 import base64
@@ -134,3 +131,4 @@ if __name__ == "__main__":
         print("\nCancelled")
     except Exception as e:
         print(f"Error: {e}")
+
