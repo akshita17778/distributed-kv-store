@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-"""
-CV-Ready Demonstration of Distributed Key-Value Store
-Shows the system architecture and capabilities
-"""
+
 
 import socket
 import time
@@ -86,3 +82,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error: {e}")
         sys.exit(1)
+
