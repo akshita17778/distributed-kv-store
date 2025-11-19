@@ -125,13 +125,13 @@ Node3 on 5003 ✓
 
 ## Key Features Demonstrated
 
-✅ **Distributed Architecture**: Coordinator + Multiple Nodes + Client
-✅ **Consistent Hashing**: Keys distributed across nodes using SHA-256
-✅ **Replication**: 1 Primary + 2 Replicas for high availability
-✅ **Failure Detection**: Heartbeat-based node health monitoring
-✅ **Failover**: Automatic fallback to replicas
-✅ **TCP Communication**: Direct node-to-node, no external services
-✅ **Thread-Safe**: Concurrent operations with mutex locks
+ **Distributed Architecture**: Coordinator + Multiple Nodes + Client
+ **Consistent Hashing**: Keys distributed across nodes using SHA-256
+ **Replication**: 1 Primary + 2 Replicas for high availability
+ **Failure Detection**: Heartbeat-based node health monitoring
+ **Failover**: Automatic fallback to replicas
+**TCP Communication**: Direct node-to-node, no external services
+ **Thread-Safe**: Concurrent operations with mutex locks
 
 ## Architecture Summary
 
@@ -176,6 +176,7 @@ CLIENT (python client/client.py)
 7. **Read Replicas**: Distribute read load to any replica
 8. **REST API**: HTTP interface instead of just TCP
 
-## License
 
-MIT - Free to use, modify, and distribute for educational purposes.
+
+
+
