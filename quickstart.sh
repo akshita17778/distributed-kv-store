@@ -1,6 +1,5 @@
-#!/bin/bash
-# Quick Start Guide for Distributed Key-Value Store
-# This script helps you start the system components
+
+
 
 echo "=========================================="
 echo "Distributed Key-Value Store - Quick Start"
